@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SALG Union - 快乐每一天</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/icon.png">
+        <script>
+            var t = setInterval(
+                function(){
+                    var d = new Date();
+                    var a = document.getElementById("year");
+                    a.innerHTML = "Copyright &copy; " + d.getFullYear() + " Study and Life Group  当前时间: " + d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds() + "." + d.getUTCMilliseconds();
+                }
+                ,1
+            );
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <img src="./img/icon.png">
+            <a href="#"><p><b>SALG Union</b></p></a>
+            <menu>
+                <a href="old/index.html"><p>原始界面</p></a>
+            </menu>
+        </header>
+        <div id="body" style="height: calc(auto + 10px);top: 150px;">
+            <br>
+            <p class="title">加入SALG Union</p>
+            <a href="https://qm.qq.com/cgi-bin/qm/qr?k=l_LzCvaoZ6DEuLCpSq4kANtYbSzmylMw&jump_from=webapi"><p>加入我们</p></a>
+            <br>
+        </div>
+        <div id="body" style="height: calc(auto + 10px);top: 370px;">
+            <p class="title">寒假计划将于2021年寒假前登记完成，敬请期待！</p>
+        </div>
+        <div id="footer" style="top: 500px;">
+            <p id="year"></p>
+        </footer>
+    </body>
+</html>
