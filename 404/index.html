@@ -1,0 +1,12 @@
+<script>
+    var t = setInterval(
+        function(){
+            var d = new Date();
+            var a = document.getElementById("time");
+            a.innerHTML = "错误时间: " + d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds() + "." + d.getUTCMilliseconds();
+        }
+        ,1
+    );
+</script>
+<p>404 No Found</p>
+<p id="time"></p>

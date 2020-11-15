@@ -1,0 +1,46 @@
+.body-title{
+    position: absolute;
+    color: rgb(151, 148, 143);
+    font-size: 40px;
+    left: 25px;
+}
+.body-div{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+.border-card{
+    position: absolute;
+    border-radius: 10px 10px 10px 10px;
+    left: 25px;
+    right:20px;
+    background-color:rgb(151, 148, 143);
+}
+.body-text{
+    font-size: 20px;
+}
+.footer{
+    position: absolute;
+    left: 0px;
+    background: rgb(151, 148, 143);
+    height: 40px;
+    width: 100%;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 10px;
+}
+.body-button{
+    position: absolute;
+    top: 15px;
+    width: 50px;
+    right: 0px;
+}
+.body-button-text{
+    position: absolute;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: right;
+    box-align: right;
+    color: white;
+    text-decoration:none;
+}
